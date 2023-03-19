@@ -127,3 +127,4 @@ from (
                natural join course  
 ) raw_data
 ;
+
