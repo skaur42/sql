@@ -28,12 +28,12 @@ CREATE TABLE instructor
 
 CREATE INDEX inst_name_idx ON instructor (lname, fname);
 
-INSERT INTO instructor VALUES(0,'Sultan','Sam','000-02-0001','M','A','1999-09-01','Web technology, Java, XML, SQL');
-INSERT INTO instructor VALUES(0,'Pefanis','George','000-02-0002','M','A','2000-02-15','ASP, .NET, HTML');
-INSERT INTO instructor VALUES(0,'martin','susan','000-02-0003','F','A','1998-07-01',NULL);
-INSERT INTO instructor VALUES(0,'Paller','Marc','000-02-0004','M','A','1995-01-01','Oracle, DB2');
-INSERT INTO instructor VALUES(0,'O''Brien','Mary','000-02-0005','F','I','2003-03-25',NULL);
-INSERT INTO instructor VALUES(0,'Katz','Eric','000-02-0006','M','A','2001-05-15','JavaScript, C, Flash');
+INSERT INTO instructor VALUES(0,'Sainz','Kevin','000-02-0001','M','A','1999-09-01','Java');
+INSERT INTO instructor VALUES(0,'Pefanis','Lewis','000-02-0002','M','A','2000-02-15','.NET');
+INSERT INTO instructor VALUES(0,'Hamilton','Susan','000-02-0003','F','A','1998-07-01',NULL);
+INSERT INTO instructor VALUES(0,'Vettel','Marc','000-02-0004','M','A','1995-01-01','Oracle');
+INSERT INTO instructor VALUES(0,'O''Louis','Mary','000-02-0005','F','I','2003-03-25',NULL);
+INSERT INTO instructor VALUES(0,'Fitz','Eric','000-02-0006','M','A','2001-05-15','JavaScript');
 
 
 # create student table ###########################################
@@ -55,31 +55,31 @@ CREATE TABLE student
 
 CREATE INDEX stu_name_idx ON student (lname, fname);
 
-INSERT INTO student VALUES(0,'Burns','Barbara','000-01-0001','F','graduate','4','barbara.burns@nyu.edu');
-INSERT INTO student VALUES(0,'Cambria','Vincent','000-01-0002','M','undergraduate','3','vcambria@yahoo.com');
-INSERT INTO student VALUES(0,'Davidson','Duncan','000-01-0003','M','graduate','2','duncan.davidson@nyu.edu');
-INSERT INTO student VALUES(0,'Smith','David','000-01-0004','M','undergraduate','1',NULL);
-INSERT INTO student VALUES(0,'Thomas','Eugene','000-01-0005','M','undergraduate','3','ethomas@xyz.com');
-INSERT INTO student VALUES(0,'Owens','Cynthia','000-01-0006','F','undergraduate','2',NULL);
-INSERT INTO student VALUES(0,'Willis','Eileen','000-01-0007','F','graduate','3',NULL);
-INSERT INTO student VALUES(0,'Myers','Rick','000-01-0008','M','undergraduate','2','rick.myers@nyu.edu');
-INSERT INTO student VALUES(0,'Ryan','Natasha','000-01-0009','F','graduate','1',NULL);
-INSERT INTO student VALUES(0,'Stack','Patrick','000-01-0010','M','undergraduate','1',NULL);
-INSERT INTO student VALUES(0,'Tobias','Wayne','000-01-0011','M','graduate','4',NULL);
-INSERT INTO student VALUES(0,'Race','Joseph','000-01-0012','M','graduate','3','joerace321@xyz.tv');
-INSERT INTO student VALUES(0,'Nelson','Colette','000-01-0013','F','graduate','3',NULL);
-INSERT INTO student VALUES(0,'Brinson','Angel','000-01-0014','F','undergraduate','1',NULL);
-INSERT INTO student VALUES(0,'Soley','John','000-01-0015','M','undergraduate','2','soleyj@nyu.edu');
-INSERT INTO student VALUES(0,'Grace','Robert','000-01-0016','M','undergraduate','2',NULL);
-INSERT INTO student VALUES(0,'Tok','Kathy','000-01-0017','F','graduate','1',NULL);
-INSERT INTO student VALUES(0,'miller','janet','000-01-0018','F','undergraduate','2',NULL);
-INSERT INTO student VALUES(0,'Austin','Maria','000-01-0019','F','graduate','2',NULL);
-INSERT INTO student VALUES(0,'Teagan','Edward','000-01-0020','M','undergraduate','4',NULL);
-INSERT INTO student VALUES(0,'Milgrom','Anya','000-01-0021','F','undergraduate','4',NULL);
-INSERT INTO student VALUES(0,'Vasquez','Lillian','000-01-0022','F','undergraduate','3',NULL);
-INSERT INTO student VALUES(0,'Chan','David','000-01-0023','M','graduate','1',NULL);
-INSERT INTO student VALUES(0,'James','Phyllis','000-01-0024','F','undergraduate','1',NULL);
-INSERT INTO student VALUES(0,'Sultan','Sam','000-02-0001','M','graduate','4',NULL);
+INSERT INTO student VALUES(0,'Burns','Carry','000-01-0001','F','graduate','4','bcarry@email.edu');
+INSERT INTO student VALUES(0,'Cambria','George','000-01-0002','M','undergraduate','3','georgec@email.com');
+INSERT INTO student VALUES(0,'Davidson','Pete','000-01-0003','M','graduate','2','pete.davidson@email.edu');
+INSERT INTO student VALUES(0,'Verstappen','David','000-01-0004','M','undergraduate','1',NULL);
+INSERT INTO student VALUES(0,'Flynn','Eugene','000-01-0005','M','undergraduate','3','eflynn@email.com');
+INSERT INTO student VALUES(0,'Owens','Bill','000-01-0006','F','undergraduate','2',NULL);
+INSERT INTO student VALUES(0,'Willy','Wonker','000-01-0007','F','graduate','3',NULL);
+INSERT INTO student VALUES(0,'Myers','Kelly','000-01-0008','M','undergraduate','2','kelly.myers@email.edu');
+INSERT INTO student VALUES(0,'Ryan','Austin','000-01-0009','F','graduate','1',NULL);
+INSERT INTO student VALUES(0,'Stack','Overflow','000-01-0010','M','undergraduate','1',NULL);
+INSERT INTO student VALUES(0,'Tobias','Four','000-01-0011','M','graduate','4',NULL);
+INSERT INTO student VALUES(0,'Race','Car','000-01-0012','M','graduate','3','racecar321@email.com');
+INSERT INTO student VALUES(0,'Formula','One','000-01-0013','F','graduate','3',NULL);
+INSERT INTO student VALUES(0,'Bridgerton','Angel','000-01-0014','F','undergraduate','1',NULL);
+INSERT INTO student VALUES(0,'Verstappen','John','000-01-0015','M','undergraduate','2','verstj@email.com');
+INSERT INTO student VALUES(0,'Grace','Jack','000-01-0016','M','undergraduate','2',NULL);
+INSERT INTO student VALUES(0,'Tok','Tic','000-01-0017','F','graduate','1',NULL);
+INSERT INTO student VALUES(0,'Miller','Meek','000-01-0018','M','undergraduate','2',NULL);
+INSERT INTO student VALUES(0,'Ave','Maria','000-01-0019','F','graduate','2',NULL);
+INSERT INTO student VALUES(0,'Roald','Dahl','000-01-0020','M','undergraduate','4',NULL);
+INSERT INTO student VALUES(0,'Sinclair','Anya','000-01-0021','F','undergraduate','4',NULL);
+INSERT INTO student VALUES(0,'Vasquez','Amelia','000-01-0022','F','undergraduate','3',NULL);
+INSERT INTO student VALUES(0,'Chan','Andrew','000-01-0023','M','graduate','1',NULL);
+INSERT INTO student VALUES(0,'James','Pam','000-01-0024','F','undergraduate','1',NULL);
+INSERT INTO student VALUES(0,'Scuderia','Ferrari','000-02-0001','M','graduate','4',NULL);
 
 
 # create course table ############################################
